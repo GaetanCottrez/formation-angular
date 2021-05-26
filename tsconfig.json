@@ -6,6 +6,16 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "paths": {
+      "fab": [
+        "dist/fab/fab",
+        "dist/fab"
+      ],
+      "prc": [
+        "dist/prc/prc",
+        "dist/prc"
+      ]
+    },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
